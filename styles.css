@@ -10,7 +10,8 @@ body {
 }
 
 header {
-    border-bottom: 1px solid #000000;
+    /* Color Negro */
+    border-bottom: 1px solid #000000; 
     padding: 19px 0;
     overflow: hidden;
     background-image: url(https://images8.alphacoders.com/559/thumb-1920-559128.jpg);
