@@ -1,0 +1,102 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0px;
+    /* padding: 0; */
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #000000;
+    padding: 19px 0;
+    overflow: hidden;
+    background-image: url(https://images8.alphacoders.com/559/thumb-1920-559128.jpg);
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid black;
+    font: 400 20px oswald, sans-serif; 
+    /* display: inline; */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* align-items: center; */
+    gap: 16px;
+    justify-content: center;
+    
+}
+
+.contenedor {
+    /* max-width: 100%; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+
+.foto {
+    border-radius: 90px;
+    border: solid #fff;
+    height: 175px;
+    width: 175px;
+    position: relative;
+}
+
+.github{
+    max-width: 20px;
+}
+.nombre {
+    color: #ffffff;
+    font: 400 40px oswald, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+.sobremi{
+    color: #000000;
+    font: 400 15px oswald, sans-serif;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+/* form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+} */
+
+section.seccion {
+
+            
+    max-width: 100%;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+
+
+}
+
+section.sobremi {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: left;
+    width: 600px;
+}
+
+section.precio {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 450px;
+    font-weight: bold;
+}
